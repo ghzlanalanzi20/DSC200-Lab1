@@ -1,7 +1,7 @@
 ---
 title: "Lab 01 - Hello R"
-author: "Ghzlan Abdullah"
-date: "10/2/2021"
+author: "ghzlan abdullah"
+date: "11/2/2021"
 output: 
   html_document: 
     toc_depth: 6
@@ -12,14 +12,13 @@ output:
 
 University ID: 2201000995
 
-### Load packages
-
-```{r load-packages, message=FALSE}
-library(tidyverse) 
+### Load packages(> library(tidyverse))
 library(datasauRus)
-```
-
+head(datasaurus_dozen)
+summary(datasaurus_dozen)
+View(datasaurus_dozen) 
 
 ### Lab Exercise
 
-(Type your answer to the Exercise here. Remember to include the code, you need to put the code between three backticks followed by the following line on top of the code {r load-packages, message=FALSE}. See 'Load Packages' above as an example. Delete everything in these brackets after typing your answer.)
+
+
