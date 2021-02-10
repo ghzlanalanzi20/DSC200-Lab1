@@ -2,7 +2,12 @@
 title: "Lab 01 - Hello R"
 author: "Ghzlan Abdullah"
 date: "10/2/2021"
-output: html_document
+output: 
+  html_document: 
+    toc_depth: 6
+    highlight: tango
+    theme: journal
+    fig_height: 6
 ---
 
 University ID: 2201000995
