@@ -185,6 +185,7 @@ summary {
 <p>Answer for Task 2 dino_data &lt;- datasaurus_dozen %&gt;% filter(dataset == “dino”) ggplot(data = dino_data, mapping = aes(x = x, y = y)) + geom_point()</p>
 <p>Answer for Task 3 star_data &lt;- datasaurus_dozen %&gt;% filter(dataset == “star”) ggplot(data = star_data, mapping = aes(x = x, y = y)) + geom_point()</p>
 <p>Answer for Task 4 circle_data &lt;- datasaurus_dozen %&gt;% filter(dataset == “circle”) ggplot(data = circle_data, mapping = aes(x = x, y = y)) + geom_point()</p>
+<p>Done with Lab 2! ggplot(datasaurus_dozen, aes(x = x, y = y, color = dataset))+ geom_point()+ facet_wrap(~ dataset, ncol = 3) + theme(legend.position = “none”) &gt;datasaurus_dozen %&gt;% group_by(dataset) %&gt;% summarize(r = cor(x, y)) %&gt;% print(13)</p>
 </div>
 
 
